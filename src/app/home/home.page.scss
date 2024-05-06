@@ -1,0 +1,18 @@
+ion-range {
+    margin: 0 10px;
+}
+
+.content {
+    width: 100vw;
+    height: fit-content;
+    padding: 0 10px;
+}
+
+ion-range::part(pin) {
+    border-radius: 50%;
+    min-width: 35px;
+    height: 35px;
+    border-radius: 10px;
+
+    transition: transform 120ms ease, background 120ms ease;
+}
